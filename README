@@ -1,1 +1,13 @@
-Code available for downloading or analyzing CMIP6 data (https://esgf-node.llnl.gov/search/cmip6/) for GeoMIP analyses
+Code available for downloading or analyzing CMIP6 data for GeoMIP analysesMIP
+
+Instructions for downloading CMIP6 GeoMIP simulations:
+Go to https://esgf-node.llnl.gov/search/cmip6/ (must have an account, easy to do)
+Go to Activity -> select GeoMIP or ScenarioMIP (for the baseline scenarios)
+Go to Experiment ID -> select G6Sulfur or G6Solar (for GeoMIP); ssp585 or ssp245 (for ScenarioMIP)
+Go to SourceID to eventually pick just one of the models
+Select in the same way Realm, Variable and Frequency
+Hit search - a list of all variables to be downloaded will appear
+Add to cart all you need
+Go to My Cart and download the WGET script
+Go to the folder where you downloaded the WGET script, and do bash wget.[].sh -H
+You will be asked to insert username and password. Download will start automatically
